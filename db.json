@@ -1,0 +1,112 @@
+{
+  "gluten_free": {
+    "restaurants": [
+      {
+        "name": "Concepción",
+        "description": "100% sin gluten"
+      },
+      {
+        "name": "Buena Vida Casi",
+        "description": "100% sin gluten"
+      },
+      {
+        "name": "La Verdulería",
+        "description": "Casi 100% sin gluten"
+      },
+      {
+        "name": "Tasca Andaluza El Porrón",
+        "description": "Sin gluten hasta lo empanado"
+      },
+      {
+        "name": "Compostelana",
+        "description": "Mucha variedad de pasta y pizza sin gluten, carta de alérgenos"
+      },
+      {
+        "name": "Convivio",
+        "description": "Restaurante italiano con pizza, pasta y postres sin gluten"
+      }
+    ],
+    "tips": [
+      "En guachinches, evitar contaminación cruzada. Comer solo lo que no contenga harina.",
+      "Arepas: harina de maíz, seguras.",
+      "Japoneses: pedir carta de alérgenos, muchas opciones sin gluten.",
+      "Comida china: cuidado con los noodles (solo fideos de arroz son seguros).",
+      "Arrocerías: generalmente seguras, pero consultar siempre.",
+      "Bares de bocadillos: evitar por contaminación cruzada."
+    ]
+  },
+  "burger_places": [
+    "Hamburguesa Nostra",
+    "Garimbar",
+    "Beers",
+    "La Sqina",
+    "Mc Donald’s",
+    "Burger King",
+    "200gr",
+    "Goiko"
+  ],
+  "breakfast_and_brunch": {
+    "santa_cruz": [
+      "La Casita",
+      "El Cambuyon",
+      "Umami",
+      "Strasse Park",
+      "Cafetería Puerto Escondido",
+      "Baker Sin Gluten (sin mesas)",
+      "Amazonia (açai)",
+      "Cafetería del Parque García Sanabria"
+    ],
+    "la_laguna": [
+      "Makika",
+      "Zoka",
+      "Sin Gluten",
+      "La Milagrosa (rotonda)",
+      "Sana Locura Gluten Free (panadería 100% sin gluten)"
+    ],
+    "brunch": [
+      "Café de Manuela",
+      "Monasterio",
+      "Terraza del Sauzal o Baranda (preguntar antes)",
+      "El Bollullo",
+      "Zoka (La Laguna)"
+    ]
+  },
+  "shopping": {
+    "supermarkets": [
+      {
+        "name": "Al Campo, Carrefour, El Corte Inglés",
+        "description": "Gran variedad de pan, galletas, harinas y congelados sin gluten."
+      },
+      {
+        "name": "Mercadona",
+        "description": "Helados y yogures sin gluten, pero poca variedad en productos con harina."
+      }
+    ],
+    "gluten_free_bakeries": [
+      {
+        "name": "Backer Sin Gluten",
+        "locations": ["Santa Cruz", "Puerto de la Cruz", "Candelaria"]
+      },
+      {
+        "name": "Sin Gluten La Laguna",
+        "location": "Rotonda de la Milagrosa"
+      },
+      {
+        "name": "Sana Locura Gluten Free Bakery"
+      }
+    ],
+    "artisan_pasta": [
+      {
+        "name": "Anto y Roby",
+        "location": "Mercado de África",
+        "description": "Gran variedad de pasta sin gluten, salsas, y opciones de encargo (rellenas o lasaña)."
+      }
+    ]
+  },
+  "gluten_free_beers": ["Mahou", "Estrella de Galicia", "Daura", "Dorada"],
+  "general_tips": [
+    "Siempre preguntar por contaminación cruzada en restaurantes y guachinches.",
+    "Usar la app 'Facemovil' para escanear productos y guía de alimentos sin gluten.",
+    "Ser paciente: muchos restaurantes no están bien informados sobre el gluten."
+  ]
+}

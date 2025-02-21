@@ -1,112 +1,315 @@
 {
-  "gluten_free": {
-    "restaurants": [
-      {
-        "name": "Concepción",
-        "description": "100% sin gluten"
-      },
-      {
-        "name": "Buena Vida Casi",
-        "description": "100% sin gluten"
-      },
-      {
-        "name": "La Verdulería",
-        "description": "Casi 100% sin gluten"
-      },
-      {
-        "name": "Tasca Andaluza El Porrón",
-        "description": "Sin gluten hasta lo empanado"
-      },
-      {
-        "name": "Compostelana",
-        "description": "Mucha variedad de pasta y pizza sin gluten, carta de alérgenos"
-      },
-      {
-        "name": "Convivio",
-        "description": "Restaurante italiano con pizza, pasta y postres sin gluten"
-      }
-    ],
-    "tips": [
-      "En guachinches, evitar contaminación cruzada. Comer solo lo que no contenga harina.",
-      "Arepas: harina de maíz, seguras.",
-      "Japoneses: pedir carta de alérgenos, muchas opciones sin gluten.",
-      "Comida china: cuidado con los noodles (solo fideos de arroz son seguros).",
-      "Arrocerías: generalmente seguras, pero consultar siempre.",
-      "Bares de bocadillos: evitar por contaminación cruzada."
-    ]
-  },
-  "burger_places": [
-    "Hamburguesa Nostra",
-    "Garimbar",
-    "Beers",
-    "La Sqina",
-    "Mc Donald’s",
-    "Burger King",
-    "200gr",
-    "Goiko"
+  "food_locations": [
+    {
+      "id": 3,
+      "name": "La Verdulería",
+      "description": "Casi 100% sin gluten",
+      "type": "restaurant",
+      "location": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": 4,
+      "name": "Tasca Andaluza El Porrón",
+      "description": "Sin gluten hasta lo empanado",
+      "type": "restaurant",
+      "location": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": 5,
+      "name": "Compostelana",
+      "description": "Mucha variedad de pasta y pizza sin gluten, carta de alérgenos",
+      "type": "restaurant",
+      "location": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": 6,
+      "name": "Convivio",
+      "description": "Restaurante italiano con pizza, pasta y postres sin gluten",
+      "type": "restaurant",
+      "location": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": 7,
+      "name": "Hamburguesa Nostra",
+      "description": "Restaurante italiano con pizza, pasta y postres sin gluten",
+      "type": "hamburguer",
+      "location": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": 8,
+      "name": "Garimbar",
+      "description": "Restaurante italiano con pizza, pasta y postres sin gluten",
+      "type": "hamburguer",
+      "location": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": 9,
+      "name": "Beers",
+      "description": "Restaurante italiano con pizza, pasta y postres sin gluten",
+      "type": "hamburguer",
+      "location": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": 10,
+      "name": "La Sqina",
+      "description": "Restaurante italiano con pizza, pasta y postres sin gluten",
+      "type": "hamburguer",
+      "location": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": 11,
+      "name": "Mc Donald’s",
+      "description": "Restaurante italiano con pizza, pasta y postres sin gluten",
+      "type": "hamburguer",
+      "location": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": 12,
+      "name": "Burger King",
+      "description": "Restaurante italiano con pizza, pasta y postres sin gluten",
+      "type": "hamburguer",
+      "location": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": 13,
+      "name": "La Bourmet",
+      "description": "Culto a la hamburguesa de una forma equIlibrada, sana y deliciosa donde podrás degustarlas en formato de hamburguesa y mini hamburguesa acompañadas de apetitosas Batatas naturales,",
+      "type": "hamburguer",
+      "location": "San Cristóbal de la Laguna"
+    },
+    {
+      "id": 14,
+      "name": "Goiko",
+      "description": "",
+      "type": "hamburguer",
+      "location": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": 15,
+      "name": "La Casita",
+      "description": "La Casita Café es una pequeña cafetería y restaurante muy acogedora, ubicada en Tenerife, en las Islas Canarias. El restaurante desea que la experiencia de sus clientes sea inolvidable.",
+      "type": "brunch",
+      "location": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": 16,
+      "name": "El Cambuyon",
+      "description": "",
+      "type": "brunch",
+      "location": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": 17,
+      "name": "Umami",
+      "description": "",
+      "type": "brunch",
+      "location": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": 18,
+      "name": "Strasse Park",
+      "description": "",
+      "type": "brunch",
+      "location": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": 19,
+      "name": "Cafetería Puerto Escondido",
+      "description": "",
+      "type": "brunch",
+      "location": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": 20,
+      "name": "Baker Sin Gluten ",
+      "description": "Sin mesas",
+      "type": "brunch",
+      "location": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": 21,
+      "name": "Amazonia",
+      "description": "",
+      "type": "brunch",
+      "location": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": 22,
+      "name": "Cafetería del Parque García Sanabria",
+      "description": "",
+      "type": "brunch",
+      "location": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": 23,
+      "name": "Makika",
+      "description": "",
+      "type": "brunch",
+      "location": "San Cristóbal de la Laguna"
+    },
+    {
+      "id": 24,
+      "name": "Zoka",
+      "description": "",
+      "type": "brunch",
+      "location": "San Cristóbal de la Laguna"
+    },
+    {
+      "id": 25,
+      "name": "Sin Gluten",
+      "description": "",
+      "type": "brunch",
+      "location": "San Cristóbal de la Laguna"
+    },
+    {
+      "id": 26,
+      "name": "La Milagrosa",
+      "description": "",
+      "type": "brunch",
+      "location": "San Cristóbal de la Laguna"
+    },
+    {
+      "id": 27,
+      "name": "Sana Locura Gluten Free ",
+      "description": "Panadería 100% sin gluten",
+      "type": "brunch",
+      "location": "San Cristóbal de la Laguna"
+    },
+    {
+      "id": 28,
+      "name": "El Bollullo",
+      "description": "Brand new, cool and original restaurant Bollullo Beach. Wood and natural environment is the soul of this space. You can enjoy paellas, salads, tapas, and of course special drinks, ice creams or cold beers are ready to dream hearing the sound of the waves. The staff has the best smile of the island and views are simply amazing",
+      "type": "brunch",
+      "location": "La Orotava"
+    },
+    {
+      "id": 29,
+      "name": "Café de Manuela",
+      "description": "",
+      "type": "brunch",
+      "location": "La Orotava"
+    },
+    {
+      "id": 30,
+      "name": "Monasterio",
+      "description": "",
+      "type": "brunch",
+      "location": "La Orotava"
+    },
+    {
+      "id": 31,
+      "name": "Terraza del Sauzal o Baranda ",
+      "description": "",
+      "type": "brunch",
+      "location": "La Orotava"
+    },
+    {
+      "name": "heheh",
+      "type": "restaurant",
+      "location": "krfjk",
+      "description": "kejfjf",
+      "id": 32
+    }
   ],
-  "breakfast_and_brunch": {
-    "santa_cruz": [
-      "La Casita",
-      "El Cambuyon",
-      "Umami",
-      "Strasse Park",
-      "Cafetería Puerto Escondido",
-      "Baker Sin Gluten (sin mesas)",
-      "Amazonia (açai)",
-      "Cafetería del Parque García Sanabria"
-    ],
-    "la_laguna": [
-      "Makika",
-      "Zoka",
-      "Sin Gluten",
-      "La Milagrosa (rotonda)",
-      "Sana Locura Gluten Free (panadería 100% sin gluten)"
-    ],
-    "brunch": [
-      "Café de Manuela",
-      "Monasterio",
-      "Terraza del Sauzal o Baranda (preguntar antes)",
-      "El Bollullo",
-      "Zoka (La Laguna)"
-    ]
-  },
-  "shopping": {
-    "supermarkets": [
-      {
-        "name": "Al Campo, Carrefour, El Corte Inglés",
-        "description": "Gran variedad de pan, galletas, harinas y congelados sin gluten."
-      },
-      {
-        "name": "Mercadona",
-        "description": "Helados y yogures sin gluten, pero poca variedad en productos con harina."
-      }
-    ],
-    "gluten_free_bakeries": [
-      {
-        "name": "Backer Sin Gluten",
-        "locations": ["Santa Cruz", "Puerto de la Cruz", "Candelaria"]
-      },
-      {
-        "name": "Sin Gluten La Laguna",
-        "location": "Rotonda de la Milagrosa"
-      },
-      {
-        "name": "Sana Locura Gluten Free Bakery"
-      }
-    ],
-    "artisan_pasta": [
-      {
-        "name": "Anto y Roby",
-        "location": "Mercado de África",
-        "description": "Gran variedad de pasta sin gluten, salsas, y opciones de encargo (rellenas o lasaña)."
-      }
-    ]
-  },
-  "gluten_free_beers": ["Mahou", "Estrella de Galicia", "Daura", "Dorada"],
+  "products": [
+    {
+      "id": 32,
+      "name": "Alcampo",
+      "description": "Gran variedad de pan, galletas, harinas y congelados sin gluten.",
+      "type": "supermarkets",
+      "location": "San Cristóbal de la Laguna"
+    },
+    {
+      "id": 33,
+      "name": "Carrefour",
+      "description": "Gran variedad de pan, galletas, harinas y congelados sin gluten.",
+      "type": "supermarkets",
+      "location": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": 34,
+      "name": "El Corte Inglés",
+      "description": "Gran variedad de pan, galletas, harinas y congelados sin gluten.",
+      "type": "supermarkets",
+      "location": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": 35,
+      "name": "Mercadona",
+      "description": "Helados y yogures sin gluten, pero poca variedad en productos con harina.",
+      "type": "supermarkets",
+      "location": "Santa Cruz de Tenerife"
+    },
+    {
+      "id": 36,
+      "name": "Backer Sin Gluten",
+      "description": "",
+      "type": "bakeries",
+      "locations": [
+        "Santa Cruz",
+        "Puerto de la Cruz",
+        "Candelaria"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Sin Gluten La Laguna",
+      "description": "",
+      "type": "bakeries",
+      "location": "San Cristóbal de la Laguna"
+    },
+    {
+      "id": 38,
+      "name": "Sana Locura Gluten Free Bakery",
+      "description": "",
+      "type": "bakeries",
+      "location": "San Cristóbal de la Laguna"
+    },
+    {
+      "id": 39,
+      "name": "Anto y Roby",
+      "description": "Gran variedad de pasta sin gluten, salsas, y opciones de encargo (rellenas o lasaña).",
+      "type": "artisan_pasta",
+      "location": "Mercado de África"
+    },
+    {
+      "id": 40,
+      "name": "Mahou",
+      "type": "beer",
+      "description": "",
+      "location": ""
+    },
+    {
+      "id": 41,
+      "name": "Estrella de Galicia",
+      "description": "",
+      "type": "beer",
+      "location": ""
+    },
+    {
+      "id": 42,
+      "name": "Daura",
+      "description": "",
+      "type": "beer",
+      "location": ""
+    },
+    {
+      "id": 43,
+      "name": "Dorada",
+      "description": "",
+      "type": "beer",
+      "location": ""
+    }
+  ],
   "general_tips": [
     "Siempre preguntar por contaminación cruzada en restaurantes y guachinches.",
     "Usar la app 'Facemovil' para escanear productos y guía de alimentos sin gluten.",
-    "Ser paciente: muchos restaurantes no están bien informados sobre el gluten."
+    "Ser paciente: muchos restaurantes no están bien informados sobre el gluten.",
+    "En guachinches, evitar contaminación cruzada. Comer solo lo que no contenga harina.",
+    "Arepas: harina de maíz, seguras.",
+    "Japoneses: pedir carta de alérgenos, muchas opciones sin gluten.",
+    "Comida china: cuidado con los noodles (solo fideos de arroz son seguros).",
+    "Arrocerías: generalmente seguras, pero consultar siempre.",
+    "Bares de bocadillos: evitar por contaminación cruzada."
   ]
 }
